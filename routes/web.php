@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/world', function ()
-    { return 'World';
+Route::get('/Welcome', function () { return 'Welcome Hanin Mariam Abiyyah Hendrik NIM 2341760154';
 });
+
+
 
