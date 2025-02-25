@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PhotoController;
 
-Route::resource('photos', PhotoController::class)->except([
-    'destroy'
-]);
+Route::get('/greeting', function () {
+    return view('hello', ['name' => 'Hanin Mariam']);
+});
+
 
 
 
